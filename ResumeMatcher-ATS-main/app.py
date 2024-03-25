@@ -29,7 +29,7 @@ def input_pdf_text(uploaded_file):
 # Load job postings data
 @st.cache_data
 def load_job_postings():
-    job_postings = pd.read_csv("data/job_postings.csv")
+    job_postings = pd.read_csv("data/job_p.csv")
     return job_postings
 
 

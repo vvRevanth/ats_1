@@ -58,7 +58,7 @@ with col2:
 st.title("Career Nest - Resume Checker")
 tabs = ["home", "contact"]
 # Main Banner
-st.video("data/video.mp4")
+st.video('video.mp4')
 st.write("""
     # Unlock more interview opportunities by optimizing your resume with Career Nest
     ## Find your dream career

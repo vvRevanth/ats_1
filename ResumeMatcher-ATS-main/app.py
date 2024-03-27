@@ -4,7 +4,7 @@ import pandas as pd
 import google.generativeai as genai
 import PyPDF2 as pdf
 import json
-from pydataset import data
+#from pydataset import data
 
 # Define your Google API Key
 API_KEY = "AIzaSyD2oLQHkz9sYQvKZN6VaZ7ZI2t2N79wefQ"
@@ -31,7 +31,7 @@ def input_pdf_text(uploaded_file):
 # Load job postings data
 @st.cache_data
 def load_job_postings():
-    job_postings = pd.read_csv("job_postings.csv")
+    job_postings = pd.read_csv("data/job_p.csv")
     return job_postings
 
 
